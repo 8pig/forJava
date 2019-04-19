@@ -9,7 +9,7 @@ import java.util.Iterator;
 public class Iterator1 {
     public static void main(String[] args) {
 
-        Collection arr1 = new ArrayList();
+        ArrayList arr1 = new ArrayList();
         arr1.add(new Student("aa", 12));  // Object obj = new Student();  自动提示为OBJ了
         arr1.add(new Student("dd", 6));
         arr1.add(new Student("cc", 4));
@@ -20,6 +20,10 @@ public class Iterator1 {
             b = it.next();
             Student b1 = (Student)b;
             System.out.println(b1.getName()+"+"+b1.getAge());
+
+        }
+        for (int i = 0; i < arr1.size(); i++) {
+            System.out.println(arr1.get(i));
 
         }
 
