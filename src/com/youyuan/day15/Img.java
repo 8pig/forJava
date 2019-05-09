@@ -12,10 +12,5 @@ public class Img {
         }
         bif.close();
         bof.close();
-
-
-
-
-
     }
 }
