@@ -1,10 +1,7 @@
 package com.youyuan.day16;
-
 import java.io.*;
 import java.util.Scanner;
-
 public class CopyFile {
-
     public static void main(String[] args) throws IOException {
 
         File file = getFile();
@@ -17,12 +14,7 @@ public class CopyFile {
         }
         bif.close();
         bof.close();
-
-
-
-
     }
-
     public static File getFile(){
         System.out.println("请输入一个路径");
         Scanner sc = new Scanner(System.in);
@@ -38,9 +30,5 @@ public class CopyFile {
                 return file;
             }
         }
-
-
-
     }
-
 }

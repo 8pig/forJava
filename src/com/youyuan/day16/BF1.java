@@ -15,15 +15,5 @@ public class BF1 {
         }
         bof.close();
         bif.close();
-
-
-
-
-
-
-
-
-
-
     }
 }
