@@ -8,7 +8,6 @@ import java.net.Socket;
 
 public class Demo_Sever {
     public static void main(String[] args) throws IOException {
-        System.out.println(111);
         ServerSocket  server = new ServerSocket(12345);
         Socket scoket = server.accept();
         InputStream is = scoket.getInputStream();
