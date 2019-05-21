@@ -6,8 +6,8 @@ import java.sql.Statement;
 
 public class jdbc1 {
     public static void main(String[] args) throws Exception {
-//         1 导入jar 包
-//        2 注册驱动
+        //  1 导入jar 包
+        //  2 注册驱动
         Class.forName("com.mysql.jdbc.Driver");
         // 3. 获取数据库连接对象 connection
         Connection conn =  DriverManager.getConnection("jdbc:mysql://localhost:3306/test","root","root");
