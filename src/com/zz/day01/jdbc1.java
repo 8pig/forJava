@@ -10,9 +10,9 @@ public class jdbc1 {
         //  2 注册驱动
         Class.forName("com.mysql.jdbc.Driver");
         // 3. 获取数据库连接对象 connection
-        Connection conn =  DriverManager.getConnection("jdbc:mysql://localhost:3306/test","root","root");
+        Connection conn =  DriverManager.getConnection("jdbc:mysql://localhost:3306/db1","root","root");
         // 4. 定义一个sql 语句
-        String sql = "update student set english = 10 where id = 6";
+        String sql = "update student set age = 10 where id = 3";
         // 5.  获取执行sql语句的对象 statement
         Statement stmt = conn.createStatement();
         // 6. 执行sql 接受返回结果
