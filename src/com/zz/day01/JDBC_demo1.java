@@ -1,4 +1,4 @@
-package com.day02;
+package com.zz.day01;
 
 import cn.icast.util.JDBCUtils;
 
@@ -40,11 +40,11 @@ public class JDBC_demo1 {
 
 
         } catch (Exception e) {
+            // 事务回滚
             e.printStackTrace();
             try {
                 if(conn != null){
                     conn.rollback();
-
                 }
             } catch (SQLException ex) {
                 ex.printStackTrace();
