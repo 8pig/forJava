@@ -22,8 +22,8 @@ public class DruidD2 {
             // huoqu pstm
             pstmt = conn.prepareStatement(sql);
 
-            pstmt.setString(1, "zhaozhou");
-            pstmt.setString(2, "1234567");
+            pstmt.setString(1, "abc");
+            pstmt.setString(2, "12345");
 
             int count = pstmt.executeUpdate();
             System.out.println(count);
