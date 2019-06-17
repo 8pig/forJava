@@ -1,4 +1,4 @@
-package cn.zz.web.request;
+package cn.zz.web.servlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -7,8 +7,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("/demo1")
-public class Servlet extends HttpServlet {
+@WebServlet("/Servlet3")
+public class Servlet3 extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
     }
