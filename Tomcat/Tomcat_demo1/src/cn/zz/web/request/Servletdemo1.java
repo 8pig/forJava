@@ -16,6 +16,9 @@ public class Servletdemo1 extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         Enumeration<String> headerNames = request.getHeaderNames();
+        System.out.println(request.getHeader("user-agent"));
+
+        System.out.println("-----------------");
         while( headerNames.hasMoreElements() ){
             String name = headerNames.nextElement();
             String value = request.getHeader(name);
