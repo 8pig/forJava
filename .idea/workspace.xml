@@ -6,11 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51d13afe-affd-40a4-9c1f-a184b636fd56" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tomcat/src/cn/zz/web/servlet/Servlet2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tomcat/src/cn/zz/web/servlet/Servlet2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tomcat/src/cn/zz/web/servlet/Servlet3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tomcat/src/cn/zz/web/servlet/Servlet3.java" afterDir="false" />
-    </list>
+    <list default="true" id="51d13afe-affd-40a4-9c1f-a184b636fd56" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tomcat/src/cn/zz/web/servlet/Servlet1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-16">
+            <state relative-caret-position="32">
               <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -65,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tomcat/src/cn/zz/web/servlet/Servlet2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            <state relative-caret-position="144">
+              <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -127,7 +123,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="825" />
     <option name="width" value="559" />
     <option name="height" value="738" />
@@ -137,6 +133,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,8 +181,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -208,6 +204,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -482,6 +479,7 @@
       <workItem from="1560591271490" duration="7228000" />
       <workItem from="1560609547229" duration="253000" />
       <workItem from="1561186227270" duration="4677000" />
+      <workItem from="1561560125541" duration="186000" />
     </task>
     <task id="LOCAL-00001" summary="   j">
       <created>1560609663559</created>
@@ -499,13 +497,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34567000" />
+    <option name="totallyTimeSpent" value="34753000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Web" order="0" sideWeight="0.5063613" side_tool="true" visible="true" weight="0.27987897" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49363866" visible="true" weight="0.27987897" />
+      <window_info id="Web" order="0" sideWeight="0.5072464" side_tool="true" visible="true" weight="0.1096823" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49275362" visible="true" weight="0.1096823" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -770,7 +769,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tomcat/src/cn/zz/web/servlet/Servlet1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
+        <state relative-caret-position="32">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -787,8 +786,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tomcat/src/cn/zz/web/servlet/Servlet2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="144">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
         </state>
       </provider>
     </entry>
