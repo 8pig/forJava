@@ -6,141 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="649d31de-7e31-41ad-8c6f-2de1c159dd83" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/libs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/libs__2_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_44_bin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tomcat/Tomcat.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tomcat/Tomcat_demo1/src/cn/zz/web/request/Servletdemo1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tomcat/day14/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tomcat/day14/web/regist.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tomcat/dayday/src/cn/zz/web/SuccessServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tomcat/dayday/web/WEB-INF/lib/commons-beanutils-1.8.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tomcat/dayday/web/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tomcat/dayday/web/WEB-INF/lib/druid-1.1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tomcat/dayday/web/WEB-INF/lib/mysql-connector-java-5.1.44-bin.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tomcat/dayday/web/WEB-INF/lib/spring-beans-5.1.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tomcat/dayday/web/WEB-INF/lib/spring-core-5.1.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tomcat/dayday/web/WEB-INF/lib/spring-jdbc-5.1.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tomcat/dayday/web/WEB-INF/lib/spring-tx-5.1.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tomcat/dayday/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tomcat/src/cn/zz/web/servlet/Servlet1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tomcat/src/cn/zz/web/servlet/Servlet2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tomcat/src/cn/zz/web/servlet/Servlet2Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tomcat/src/cn/zz/web/servlet/Servlet3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tomcat/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day15/src/cn/zz/dao/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day15/src/cn/zz/domain/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day15/src/cn/zz/util/JDBCUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day15/src/cn/zz/web/SuccessServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day15/src/cn/zz/web/failServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day15/src/cn/zz/web/loginServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day15/web/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forJava.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forJava.iml~HEAD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.annotation.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.ejb.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.jms.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.persistence.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.resource.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.servlet.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.transaction.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/druid-1.1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/mysql-connector-java-5.1.44-bin.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/forJava/META-INF/forJava.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/forJava/druid.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/forJava/jdbc.properties.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/icast/domain/Emp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/icast/sevlet/ServletDemo1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/icast/util/DruidUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/icast/util/JDBCUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/druid/DruidD2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/druid/DruidDemo1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/net/D2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/net/Demo_Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/net/Demo_Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/net/Demo_Sever.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day04/demo01/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day04/demo01/Cat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day04/demo01/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day04/demo01/HelloWorld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day04/demo01/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day04/demo01/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day04/demo01/Teachr.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day05/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day05/Cat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day05/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day06/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day06/Cat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day06/Demo_Abstract.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day06/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day06/Teach1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day06/Teacher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day08/Test1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day08/Test2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day09/Test1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day09/Test2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day10/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day10/Test1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day10/Test2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day11/Login.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day11/String1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day11/StringBuffer2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day11/StringBuffer3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day11/StringBufferTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day11/Strlength.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day11/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day11/Test1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day12/Collection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day12/Iterator1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day12/Test1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day12/Test2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day13/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day13/Test1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day13/Test2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day13/Test3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day13/Test4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day14/D1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day14/F1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day14/F2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day14/F3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day14/F4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day14/F5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day15/FS1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day15/FS2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day15/FS3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day15/FS4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day15/FS5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day15/FS6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day15/FS7.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day15/Img.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day16/BF1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day16/CopyFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day16/FS1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day17/JC1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day18/Thread1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day18/Thread2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day18/Thread3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day19/Thread1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youyuan/day7/Test1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zz/day01/JDBC2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zz/day01/JDBC3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zz/day01/JDBC4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zz/day01/JDBC5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zz/day01/JDBC6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zz/day01/JDBC7.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zz/day01/JDBC_demo1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zz/day01/Tset1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zz/day01/jdbc1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/druid.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc.properties.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -286,7 +152,7 @@
       <workItem from="1631514727577" duration="2219000" />
       <workItem from="1631517547017" duration="3989000" />
       <workItem from="1631606047523" duration="7308000" />
-      <workItem from="1631676002531" duration="4879000" />
+      <workItem from="1631676002531" duration="5601000" />
     </task>
     <servers />
   </component>
