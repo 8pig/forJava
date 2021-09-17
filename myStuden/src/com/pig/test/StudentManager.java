@@ -25,11 +25,10 @@ public class StudentManager {
                     addStudent(studentArrayList);
                     break;
                 case "2":
-                    System.out.println("del");
                     deleteStu(studentArrayList);
                     break;
                 case "3":
-                    System.out.println("editor");
+                    Modify(studentArrayList);
                     break;
                 case "4":
                     viewAllList(studentArrayList);
@@ -42,6 +41,24 @@ public class StudentManager {
                     break;
             }
         }
+    }
+
+    private static void Modify(ArrayList<Student> list) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("请输入要修改学生的学号");
+        String sid = sc.next();
+        int index = findIndex(list, sid);
+        if(index == -1) {
+            System.out.println("查无此人");
+            return;
+        }
+        System.out.println("请输入要修改学生的名字");
+        String name = sc.next();
+        System.out.println("请输入要修改学生的年龄");
+        int age = sc.nextInt();
+        Student s1 = new Student(sid, name, age);
+        Student set = list.set(index, s1);
+        System.out.println("修改成功");
     }
 
     private static void deleteStu(ArrayList<Student> studentArrayList) {
@@ -94,11 +111,11 @@ public class StudentManager {
         Scanner SC = new Scanner(System.in);
         System.out.println("输入学号");
         String sid = SC.next();
+        int index = findIndex(studentArrayList, sid);
         System.out.println("输入学生名称");
         String name = SC.next();
         System.out.println("输入学生年龄");
         int age = SC.nextInt();
-
         Student student = new Student(sid, name, age);
         studentArrayList.add(student);
         System.out.println("添加成功");
