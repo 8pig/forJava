@@ -26,6 +26,7 @@ public class StudentManager {
                     break;
                 case "2":
                     System.out.println("del");
+                    deleteStu(studentArrayList);
                     break;
                 case "3":
                     System.out.println("editor");
@@ -41,10 +42,37 @@ public class StudentManager {
                     break;
             }
         }
-
-
-
     }
+
+    private static void deleteStu(ArrayList<Student> studentArrayList) {
+        System.out.println("请输入要删除的学号");
+        Scanner sc = new Scanner(System.in);
+        String sid = sc.next();
+        int index = findIndex(studentArrayList, sid);
+        if(index == -1) {
+            System.out.println("学号不存在");
+        }else{
+            studentArrayList.remove(index);
+            System.out.println("删除成功");
+        }
+    }
+
+
+    /* 查找学生是否存在  不存在-1 存在返回索引位置*/
+    public static int findIndex (ArrayList<Student> list, String sid) {
+        int index = -1;
+        for (int i = 0; i < list.size(); i++) {
+            Student s = list.get(i);
+            if(s.getSid().equals(sid)) {
+                index = i;
+                break;
+            }
+        }
+        return index;
+    }
+
+
+    /* 查看所有学生*/
     public static void viewAllList (ArrayList<Student> studentArrayList) {
         if(studentArrayList.size() > 0) {
             System.out.println("学号\t\t姓名\t\t年龄\t\t");
@@ -54,8 +82,6 @@ public class StudentManager {
             return;
         }
         System.out.println("学生列表为空");
-
-
     }
     /* 添加学生 */
     public static void addStudent(ArrayList<Student> studentArrayList) {
@@ -67,7 +93,7 @@ public class StudentManager {
         * */
         Scanner SC = new Scanner(System.in);
         System.out.println("输入学号");
-        int sid = SC.nextInt();
+        String sid = SC.next();
         System.out.println("输入学生名称");
         String name = SC.next();
         System.out.println("输入学生年龄");

@@ -2,20 +2,20 @@ package com.pig.domain;
 
 public class Student {
 
-    private int sid;
+    private String sid;
     private String name;
     private int age;
-    public Student(int sid, String name, int age) {
+    public Student(String sid, String name, int age) {
         this.sid = sid;
         this.name = name;
         this.age = age;
     }
 
-    public int getSid() {
+    public String getSid() {
         return sid;
     }
 
-    public void setSid(int sid) {
+    public void setSid(String sid) {
         this.sid = sid;
     }
 
