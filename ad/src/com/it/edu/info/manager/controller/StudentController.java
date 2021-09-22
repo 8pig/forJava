@@ -24,7 +24,6 @@ public class StudentController {
             String text = sc.next();
             switch (text) {
                 case "1":
-                    System.out.println("添加");
                     addStudent();
                     break lo;
                 case "2":
@@ -34,8 +33,7 @@ public class StudentController {
                     System.out.println("修改");
                     break;
                 case "4":
-                    System.out.println("查看");
-
+                    viewAllStudent();
                     break;
                 case "5":
                     System.out.println("退出学生端");
@@ -44,6 +42,11 @@ public class StudentController {
                     System.out.println("无效操作");
             }
         }
+    }
+
+    public void viewAllStudent() {
+        StudentService studentService = new StudentService();
+        studentService.viewAllStudent();
     }
 
     public void addStudent() {

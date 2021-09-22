@@ -8,6 +8,11 @@ import java.util.ArrayList;
 public class StudentService {
     private StudentDao studentDao = new StudentDao();
 
+    public void viewAllStudent() {
+        ArrayList<Student> list = studentDao.findAllList();
+        System.out.println(list.toString());
+    }
+
     public boolean addStudent(Student stu) {
         return  studentDao.addStudent(stu);
     }
