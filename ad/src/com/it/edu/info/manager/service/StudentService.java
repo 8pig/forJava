@@ -8,9 +8,8 @@ import java.util.ArrayList;
 public class StudentService {
     private StudentDao studentDao = new StudentDao();
 
-    public void viewAllStudent() {
-        ArrayList<Student> list = studentDao.findAllList();
-        System.out.println(list.toString());
+    public ArrayList<Student> viewAllStudent() {
+        return  studentDao.findAllList();
     }
 
     public boolean addStudent(Student stu) {
@@ -28,5 +27,9 @@ public class StudentService {
             }
         }
         return index;
+    }
+
+    public void deleteStudentById(String id) {
+        studentDao.deleteStudentById(id);
     }
 }

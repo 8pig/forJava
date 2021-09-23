@@ -28,4 +28,22 @@ public class StudentDao {
     public ArrayList<Student> findAllList() {
         return stus;
     }
+
+    public void deleteStudentById(String id) {
+        int index = getIndex(id);
+        Student remove = stus.remove(index);
+    }
+
+    // 查找id 在不在 list里
+    public int getIndex(String id) {
+        int index = -1;
+        ArrayList<Student> list = findAllList();
+        for (int i = 0; i < list.size(); i++) {
+            if(list != null && id.equals(list.get(i).getId())){
+                index = i;
+                break;
+            }
+        }
+        return index;
+    }
 }

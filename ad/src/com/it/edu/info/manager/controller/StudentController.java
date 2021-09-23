@@ -4,13 +4,15 @@ import com.it.edu.info.manager.dao.StudentDao;
 import com.it.edu.info.manager.domain.Student;
 import com.it.edu.info.manager.service.StudentService;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class StudentController {
-
+    private StudentService studentService = new StudentService();
+    Scanner sc = new Scanner(System.in);
     // 学生管理系统 菜单
     public void start() {
-        Scanner sc = new Scanner(System.in);
+
 
         System.out.println("--- 欢迎来到学生管理系统 ---");
         System.out.println("1.添加学生");
@@ -27,7 +29,7 @@ public class StudentController {
                     addStudent();
                     break lo;
                 case "2":
-                    System.out.println("删除");
+                    deleteStuentById();
                     break;
                 case "3":
                     System.out.println("修改");
@@ -44,15 +46,31 @@ public class StudentController {
         }
     }
 
+    public void deleteStuentById() {
+
+        System.out.println("请输入删除的id");
+        String id = sc.next();
+        int index = studentService.getIndex(id);
+        if(index == -1) {
+            System.out.println("查无此人");
+            return;
+        }
+        studentService.deleteStudentById(id);
+        System.out.println("删除成功");
+    }
+
     public void viewAllStudent() {
-        StudentService studentService = new StudentService();
-        studentService.viewAllStudent();
+
+        ArrayList<Student> students = studentService.viewAllStudent();
+        if(students.size() > 0 && students != null) {
+            System.out.println(students.toString());
+            return;
+        }
+        System.out.println("暂无学生");
     }
 
     public void addStudent() {
 
-        StudentService studentService = new StudentService();
-        Scanner sc = new Scanner(System.in);
         String id;
         lo: while (true) {
             System.out.println("请输入id");
