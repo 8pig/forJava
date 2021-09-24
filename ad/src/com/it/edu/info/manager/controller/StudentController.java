@@ -88,7 +88,11 @@ public class StudentController {
         String age = sc.next();
         System.out.println("生日");
         String birthday = sc.next();
-        Student stu = new Student(id, name, age, birthday);
+        Student stu = new Student();
+        stu.setAge(age);
+        stu.setBirthday(birthday);
+        stu.setName(name);
+        // 如果使用有参构造方法 则需要 子类种调用super 方法
 
         boolean result =  studentService.addStudent(stu);
         if(result) {
