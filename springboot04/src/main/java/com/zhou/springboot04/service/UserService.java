@@ -22,7 +22,7 @@ public class UserService {
     *  查询所有
     * */
     public  List<User> findAll() {
-        return userMapper.selectList(new LambdaQueryWrapper<>());
+        return userMapper.selectList(new LambdaQueryWrapper<User>());
     }
 
     /*
@@ -30,7 +30,7 @@ public class UserService {
     * */
     public  List<User> findPage(int current, int pageSize) {
         Page<User> page = new Page<>(current, pageSize);
-        Page<User> userPage = userMapper.selectPage(page, new LambdaQueryWrapper<>());
+        Page<User> userPage = userMapper.selectPage(page, new LambdaQueryWrapper<User>());
 
         return userPage.getRecords();
     }
