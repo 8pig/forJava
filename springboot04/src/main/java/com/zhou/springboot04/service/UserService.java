@@ -47,4 +47,12 @@ public class UserService {
 
     }
 
+    public Long save(String name) {
+        User user = new User();
+        user.setAge(20);
+        user.setEmail("zhou773@foxmail.com");
+        user.setName(name);
+        userMapper.insert(user);
+        return user.getId();
+    }
 }

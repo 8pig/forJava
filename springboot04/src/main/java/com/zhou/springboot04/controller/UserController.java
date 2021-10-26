@@ -1,6 +1,5 @@
 package com.zhou.springboot04.controller;
 
-import com.oracle.tools.packager.Log;
 import com.zhou.springboot04.pojo.User;
 import com.zhou.springboot04.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -39,5 +38,10 @@ public class UserController {
     @GetMapping("findAge")
     public List<User> findAge(@RequestParam("age") int age){
         return userService.findAge(age);
+    }
+
+    @GetMapping("save")
+    public Long save(@RequestParam("name") String name) {
+      return userService.save(name);
     }
 }
