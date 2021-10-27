@@ -12,5 +12,4 @@ public interface UserMapper extends BaseMapper<User> {
 
     public List<User> findUserGtAge (int age);
 
-    List<User> selectList(LambdaQueryWrapper<Object> objectLambdaQueryWrapper);
 }
