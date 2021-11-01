@@ -10,5 +10,9 @@ import java.util.List;
 public interface TagMapper extends BaseMapper<Tag> {
     // 根据文章id 查询标签列表
     List<Tag> findTagsByArticleId(Long articleId);
+
+    List<Long> findHotsTagIds(int limit);
+
+    List<Tag> findTagsByTagIds(List<Long> tagIds);
 }
 

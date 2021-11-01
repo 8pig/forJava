@@ -10,4 +10,9 @@ public interface ArticleService {
     * */
 
     Result listArticle(PageParams pageParams);
+
+    // 最热
+    Result hotArticle(int limit);
+
+    Result newArticle(int limit);
 }

@@ -57,6 +57,35 @@ public class ArticleServiceImpl implements ArticleService {
         return  Result.success(articleVoList);
     }
 
+    // 最热文章
+    @Override
+    public Result hotArticle(int limit) {
+        LambdaQueryWrapper<Article> queryWrapper = new LambdaQueryWrapper<Article>();
+        queryWrapper.orderByDesc(Article::getViewCounts);
+        queryWrapper.select(Article::getId, Article::getTitle);
+        queryWrapper.last("limit "+ limit);
+//        select id, title from article order by view_count desc limit 5
+        List<Article> articleList = articleMapper.selectList(queryWrapper);
+
+        return  Result.success(copyList(articleList, false, false));
+
+    }
+
+
+    // 最新文章
+    @Override
+    public Result newArticle(int limit) {
+        LambdaQueryWrapper<Article> queryWrapper = new LambdaQueryWrapper<Article>();
+        queryWrapper.orderByDesc(Article::getCreateDate);
+        queryWrapper.select(Article::getId, Article::getTitle);
+        queryWrapper.last("limit "+ limit);
+//        select id, title from article order by create_time desc limit 5
+        List<Article> articleList = articleMapper.selectList(queryWrapper);
+
+        return  Result.success(copyList(articleList, false, false));
+
+    }
+
     private List<ArticleVo> copyList(List<Article> records, boolean isTag, boolean isAuthor ) {
         List<ArticleVo> articleVoList = new ArrayList<>();
         for (Article record: records) {
@@ -69,6 +98,9 @@ public class ArticleServiceImpl implements ArticleService {
         ArticleVo articleVo = new ArticleVo();
 //        articleVo.setId(Long.valueOf(String.valueOf(article.getId())));
         BeanUtils.copyProperties(article,articleVo);
+
+        System.out.println(article.toString());
+        System.out.println(articleVo.toString());
 
         articleVo.setCreateDate(new DateTime(article.getCreateDate()).toString("yyyy-MM-dd HH:mm"));
         //并不是所有的接口 都需要标签 ，作者信息
@@ -83,5 +115,8 @@ public class ArticleServiceImpl implements ArticleService {
 
         return articleVo;
     }
+
+
+
 
 }
