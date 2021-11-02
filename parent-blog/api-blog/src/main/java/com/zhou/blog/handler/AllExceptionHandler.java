@@ -1,4 +1,4 @@
-package com.zhou.blog.service;
+package com.zhou.blog.handler;
 
 import com.zhou.blog.vo.Result;
 import org.springframework.web.bind.annotation.ControllerAdvice;
